@@ -1,0 +1,31 @@
+name: yayinla
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: yayinla
+  cancel-in-progress: false
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Vakti gelen onaylı gönderileri yayınla
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/
+        run: python yayinla.py --send
+      - name: Yayın kaydını depoya işle
+        if: always()
+        run: |
+          git config user.name "yayin-bot"
+          git config user.email "yayin-bot@users.noreply.github.com"
+          git add yayinlandi.json
+          git diff --cached --quiet || (git commit -m "yayin kaydi" && git pull --rebase && git push)
