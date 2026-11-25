@@ -20,7 +20,8 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-API = "https://graph.facebook.com/v23.0"
+# Instagram Login tokeni için: IG_API=https://graph.instagram.com/v23.0
+API = os.environ.get("IG_API", "https://graph.facebook.com/v23.0")
 TZ = ZoneInfo("Europe/Istanbul")
 STATE = os.path.join(HERE, "yayinlandi.json")
 

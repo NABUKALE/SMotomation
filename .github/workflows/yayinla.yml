@@ -20,6 +20,7 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_API: https://graph.instagram.com/v23.0
           IG_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/
         run: python yayinla.py --send
       - name: Yayın kaydını depoya işle
