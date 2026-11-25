@@ -39,7 +39,8 @@
    "flags": [
     "Caption'daki 'ne işe yarar' cümlesini ürün sayfasıyla karşılaştırın.",
     "Görselde yan plakalar var, set içeriğini sayfayla karşılaştırın."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "yamaha-tum-urunler",
@@ -63,7 +64,8 @@
    ],
    "flags": [
     "Spor manet yalnızca R25 için. Başka modele uyuyorsa söyleyin."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "tekli-03",
@@ -78,7 +80,8 @@
    ],
    "flags": [
     "Caption'daki 'ne işe yarar' cümlesini ürün sayfasıyla karşılaştırın."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "cf-moto-450-sr",
@@ -101,7 +104,8 @@
    "flags": [
     "Efsane Cuma günü. İsterseniz kapanış slaytına teklif eklenir.",
     "Kaliper ve hidrolik koruma 3 renk, slaytta tek renk görünüyor."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "tekli-04",
@@ -116,7 +120,8 @@
    ],
    "flags": [
     "Caption'daki 'ne işe yarar' cümlesini ürün sayfasıyla karşılaştırın."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "tvs-apache-rtr200",
@@ -140,7 +145,8 @@
    ],
    "flags": [
     "'Egzoz görsel yazı' ve 'Zincir üstü görsel' ürün adları netleştirilmeli."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "tekli-05",
@@ -155,7 +161,8 @@
    ],
    "flags": [
     "Caption'daki 'ne işe yarar' cümlesini ürün sayfasıyla karşılaştırın."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "honda-pcx-2021-2025",
@@ -179,7 +186,8 @@
    ],
    "flags": [
     "Spor manetin 2021-24 ve Deluxe 2025-26 serileri için yıl uyumluluğunu doğrulayın."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "hero-xpulse-200",
@@ -204,7 +212,8 @@
    "flags": [
     "Radyatör koruma carousel'de yok (görseli uygun değil).",
     "Sitede iki ayrı topcase kaydı var, birinin görseli kullanıldı."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "sym-adx-300",
@@ -223,7 +232,8 @@
     "img/sym-adx-300/06.jpg",
     "img/sym-adx-300/07.jpg"
    ],
-   "flags": []
+   "flags": [],
+   "approved": true
   },
   {
    "id": "bajaj-dominar-250-400",
@@ -247,7 +257,8 @@
    ],
    "flags": [
     "Entegreli yan çanta demirinin NS 200-400-125 uyumluluğunu doğrulayın."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "tekli-09",
@@ -262,7 +273,8 @@
    ],
    "flags": [
     "Caption'daki 'ne işe yarar' cümlesini ürün sayfasıyla karşılaştırın."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "honda-forza-2023-2026",
@@ -283,7 +295,8 @@
    ],
    "flags": [
     "Telefon kiti Nukrotech markası, Forza 250/750 için."
-   ]
+   ],
+   "approved": true
   },
   {
    "id": "sym-adx-250",
@@ -331,7 +344,8 @@
    ],
    "flags": [
     "Nano ekran koruyucunun adı görselden okundu (katalogda sadece 'ADV 350' yazıyor), sitede teyit edin."
-   ]
+   ],
+   "approved": true
   }
  ]
 }
