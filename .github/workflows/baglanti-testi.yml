@@ -1,0 +1,19 @@
+name: baglanti-testi
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Instagram hesabina baglan (yayin yapmaz)
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_API: ${{ vars.IG_API || 'https://graph.facebook.com/v23.0' }}
+        run: |
+          test -n "$IG_ACCESS_TOKEN" || { echo "IG_ACCESS_TOKEN bos"; exit 1; }
+          test -n "$IG_USER_ID" || { echo "IG_USER_ID bos"; exit 1; }
+          curl -sS -G "$IG_API/$IG_USER_ID" --data-urlencode "fields=username,media_count" --data-urlencode "access_token=$IG_ACCESS_TOKEN"
+          echo
+      - name: Gorsel adresi herkese acik mi
+        run: curl -sSI "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/img/sym-adx-125/01.jpg" | head -1
