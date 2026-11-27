@@ -188,6 +188,20 @@
    "approved": true
   },
   {
+   "id": "tekli-01",
+   "kind": "tekli",
+   "brand": "Ürün kartı",
+   "title": "Kutulu motosiklet brandası",
+   "date": "2026-11-30",
+   "time": "12:30",
+   "caption": "Motosikleti toz ve yağmurdan korur. Kutulu motorlara uygun XL-2XL beden.\nSipariş ve diğer ürünler için motoahlas.com\n#motosikletbrandasi #motorbranda #motosikletaksesuar #motorcular #motoahlas",
+   "files": [
+    "img/tekli-01/01.jpg"
+   ],
+   "flags": [],
+   "approved": true
+  },
+  {
    "id": "hero-xpulse-200",
    "kind": "carousel",
    "brand": "Hero",
